@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "syngle"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simple package implementing the Singleton pattern as a mixin class."
 authors = ["Valentin Calomme <dev@valentincalomme.com>"]
 homepage = "https://valentincalomme.github.io/syngle/"
-repository = "https://github.com/valentincalomme/syngle"
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/valentincalomme/syngle"
 
 [tool.poetry.dependencies]
 python = "^3.8"
