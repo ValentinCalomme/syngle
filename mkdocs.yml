@@ -1,0 +1,25 @@
+site_name: Syngle
+repo_url: https://github.com/valentincalomme/syngle/
+site_author: Valentin Calomme
+
+nav:
+  - Home: "index.md"
+
+theme:
+  name: material
+  include_sidebar: false
+
+plugins:
+  - search
+  - markdownextradata
+  - mkdocstrings
+
+extra:
+  author:
+    name: Valentin Calomme
+    email: dev@valentincalomme.com
+
+markdown_extensions:
+  - pymdownx.keys # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#keys
+  - pymdownx.snippets # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#snippets
+  - pymdownx.superfences # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#superfences

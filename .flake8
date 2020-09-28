@@ -1,0 +1,11 @@
+[flake8]
+
+docstring-convention = google
+max-line-length = 120
+filename = ./syngle/*.py ./tests/*.py
+exclude =
+    .venv\
+    bin\
+    docs\
+    site\
+doctests = true
