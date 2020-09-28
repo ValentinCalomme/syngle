@@ -5,6 +5,14 @@
 [![downloads](https://img.shields.io/pypi/dm/syngle.svg)](https://pypistats.org/packages/syngle) -->
 [![license](https://img.shields.io/github/license/valentincalomme/syngle.svg)](https://github.com/valentincalomme/syngle/blob/master/LICENSE)
 
+---
+
+**Documentation**: <a href="https://valentincalomme.github.io/syngle/" target="_blank"[>https://typer.tiangolo.com](https://valentincalomme.github.io/syngle/)</a>
+
+**Source Code**: <a href="https://github.com/ValentinCalomme/syngle/" target="_blank">https://github.com/ValentinCalomme/syngle/</a>
+
+---
+
 ## Table of Contents
 
   - [About](#about)
