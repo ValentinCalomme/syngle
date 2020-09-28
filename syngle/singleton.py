@@ -4,7 +4,7 @@ from typing import Any, Optional
 
 
 class Singleton(object):
-    """Singleton class to extend to inherit the behaviour.
+    """Singleton mixin.
 
     Examples:
         To use it, simply extend the Singleton class.
