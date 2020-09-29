@@ -5,9 +5,11 @@
 [![downloads](https://img.shields.io/pypi/dm/syngle.svg)](https://pypistats.org/packages/syngle)
 
 ---
+
 **Documentation**: <a href="https://valentincalomme.github.io/syngle/" target="_blank">https://valentincalomme.github.io/syngle/</a>
 
 **Source Code**: <a href="https://github.com/ValentinCalomme/syngle/" target="_blank">https://github.com/ValentinCalomme/syngle/</a>
+
 ---
 
 ## Table of Contents
