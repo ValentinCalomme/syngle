@@ -20,7 +20,7 @@
 
 ## About
 
-Simple package implementing the Singleton pattern as a mixin class.
+Simple package implementing the Singleton pattern as a metaclass.
 
 ## Installation
 
@@ -39,7 +39,7 @@ Simply import the Singleton class and make your classess extend it.
 ```python
 from syngle import Singleton
 
-class MyClass(Singleton):
+class MyClass(metaclass=Singleton):
 
     pass
 
