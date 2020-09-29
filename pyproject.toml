@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "syngle"
-version = "0.1.3"
+version = "0.2.0"
 description = "Simple package implementing the Singleton pattern as a metaclass and decorator."
 authors = ["Valentin Calomme <dev@valentincalomme.com>"]
 homepage = "https://valentincalomme.github.io/syngle/"
