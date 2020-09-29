@@ -5,10 +5,10 @@
 if ! type "poetry" > /dev/null;
 then
 
-    echo "Install poetry"
+    echo "### Install poetry ###"
     python -m pip install -U poetry
 fi
 
-echo "Configure poetry"
+echo "### Configure poetry ###"
 python -m poetry config virtualenvs.create true
 python -m poetry config virtualenvs.in-project true

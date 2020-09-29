@@ -15,9 +15,9 @@ if [ $LOCAL = $REMOTE ]; then
     poetry publish
 
 elif [ $LOCAL = $BASE ]; then
-    echo "The local branch is behind the remote."
+    echo "!!! The local branch is behind the remote. !!!!"
 elif [ $REMOTE = $BASE ]; then
-    echo "The local branch is ahead of the remote, please push first."
+    echo "!!! The local branch is ahead of the remote, please push first. !!!"
 else
-    echo "The local and remote branch have diverged, please fix that first."
+    echo "!!! The local and remote branch have diverged, please fix that first. !!!"
 fi

@@ -3,11 +3,11 @@
 
 sh bin/scripts/poetry_setup.sh
 
-echo "Install packages via poetry"
+echo "### Install packages via poetry ###"
 python -m poetry update
 
-echo "Activate virtual environment"
+echo "### Activate virtual environment ###"
 source .venv/Scripts/activate
 
-echo "Install pre-commit hooks"
+echo "### Install pre-commit hooks ###"
 pre-commit install
