@@ -332,7 +332,7 @@
 <li><a href="#usage">Usage</a></li>
 </ul>
 <h2 id="about">About</h2>
-<p>Simple package implementing the Singleton pattern as a mixin class.</p>
+<p>Simple package implementing the Singleton pattern as a metaclass.</p>
 <h2 id="installation">Installation</h2>
 <p>Simply pip install the package!</p>
 <div class="highlight"><pre><span></span><code>pip install syngle
@@ -343,7 +343,7 @@
 <p>Simply import the Singleton class and make your classess extend it.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">syngle</span> <span class="kn">import</span> <span class="n">Singleton</span>
 
-<span class="k">class</span> <span class="nc">MyClass</span><span class="p">(</span><span class="n">Singleton</span><span class="p">):</span>
+<span class="k">class</span> <span class="nc">MyClass</span><span class="p">(</span><span class="n">metaclass</span><span class="o">=</span><span class="n">Singleton</span><span class="p">):</span>
 
     <span class="k">pass</span>
 
