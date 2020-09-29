@@ -3,8 +3,7 @@
 __version__ = "0.1.3"
 
 
-from syngle.singleton import Singleton
+from syngle.decorator import singleton
+from syngle.metaclass import Singleton
 
-__all__ = [
-    "Singleton",
-]
+__all__ = ["Singleton", "singleton"]
