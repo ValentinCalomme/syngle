@@ -1,7 +1,5 @@
-# This script builds the documentation and the package wheels
+# Build project
 
-cp README.md docs/index.md
-
-mkdocs build
+sh ./bin/scripts/build-docs.sh
 
 poetry build
