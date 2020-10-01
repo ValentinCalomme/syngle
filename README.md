@@ -3,8 +3,8 @@
 [![pypi](https://img.shields.io/pypi/v/syngle.svg)](https://pypi.python.org/pypi/syngle)
 [![license](https://img.shields.io/github/license/valentincalomme/syngle.svg)](https://github.com/valentincalomme/syngle/blob/master/LICENSE)
 [![downloads](https://img.shields.io/pypi/dm/syngle.svg)](https://pypistats.org/packages/syngle)
-[![docstr-coverage](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/docstr-coverage.svg)](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/docstr-coverage.svg)
-[![coverage](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/coverage.svg)](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/coverage.svg)
+[![docstr-coverage](https://raw.githubusercontent.com/ValentinCalomme/syngle/master/docs/assets/docstr-coverage.svg)](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/docstr-coverage.svg)
+[![coverage](https://raw.githubusercontent.com/ValentinCalomme/syngle/master/docs/assets/coverage.svg)](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/coverage.svg)
 
 ---
 
