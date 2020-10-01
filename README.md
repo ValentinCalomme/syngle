@@ -34,12 +34,32 @@ The package only has Python as a dependency to remain. It was developed for Pyth
 
 ## Usage
 
+In order to make a class implement the singleton pattern, you can either use a metaclass or a decorator. Functionally, both will work the same way.
+
+### As a metaclass
+
 Simply import the Singleton class and make your classess extend it.
 
 ```python
 from syngle import Singleton
 
 class MyClass(metaclass=Singleton):
+
+    pass
+
+myclass1 = MyClass()
+myclass2 = MyClass()
+
+assert myclass1 is myclass2
+```
+
+### As a decorator
+
+```python
+from syngle import singleton
+
+@singleton
+class MyClass:
 
     pass
 
