@@ -18,8 +18,7 @@ class Singleton(type):
         >>> myclass1 = MyClass()
         >>> myclass2 = MyClass()
         ...
-        >>> myclass1 is myclass2
-        True
+        >>> assert myclass1 is myclass2
     """
 
     _instance: Optional[Any] = None
