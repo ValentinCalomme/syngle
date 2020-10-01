@@ -3,6 +3,8 @@
 [![pypi](https://img.shields.io/pypi/v/syngle.svg)](https://pypi.python.org/pypi/syngle)
 [![license](https://img.shields.io/github/license/valentincalomme/syngle.svg)](https://github.com/valentincalomme/syngle/blob/master/LICENSE)
 [![downloads](https://img.shields.io/pypi/dm/syngle.svg)](https://pypistats.org/packages/syngle)
+[![docstr-coverage](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/docstr-coverage.svg)](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/docstr-coverage.svg)
+[![coverage](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/coverage.svg)](https://github.com/valentincalomme/syngle/blob/master/syngle/docs/assets/coverage.svg)
 
 ---
 
@@ -30,7 +32,13 @@ Simply pip install the package!
 pip install syngle
 ```
 
-The package only has Python as a dependency to remain. It was developed for Python 3.8+ and has not been tested for prior versions.
+Or if you are using poetry:
+
+```
+poetry add syngle
+```
+
+The package only has Python as a dependency to remain. It was developed for Python 3.7+ and has not been tested for prior versions.
 
 ## Usage
 
