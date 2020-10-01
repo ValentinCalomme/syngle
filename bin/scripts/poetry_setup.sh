@@ -7,6 +7,7 @@ then
 
     echo "### Install poetry ###"
     python -m pip install -U poetry
+
 fi
 
 echo "### Configure poetry ###"
