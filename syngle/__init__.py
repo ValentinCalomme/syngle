@@ -3,6 +3,6 @@
 from syngle.decorator import singleton
 from syngle.metaclass import Singleton
 
-__version__ = "0.3.3"
+__version__ = "0.4.0"
 
 __all__ = ["Singleton", "singleton"]
