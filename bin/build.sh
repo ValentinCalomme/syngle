@@ -2,6 +2,6 @@
 
 sh ./bin/scripts/build-docs.sh
 
-echo "### Build project via poetry ###"
+echo -e "\n### Build project via poetry ###\n"
 
 poetry build
